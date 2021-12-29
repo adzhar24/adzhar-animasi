@@ -3,6 +3,7 @@
     padding: 0;
 }
 ul {
+  z-index: 100;
   background-color: cornflowerblue;
   margin-top: auto;
   position: fixed;

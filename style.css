@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 ul {
   z-index: 100;
@@ -18,38 +19,40 @@ ul {
   
   li {
     display: inline;
-  
   }
   
- ul li a {
+  ul li a {
     display: inline-block;
     color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
   }
-  ul li:hover{
-    background-color: chartreuse;
+  ul li a:hover{
+    background-color:brown;
   }
   
-a:hover{
+  /* a:hover{
     background-color: brown;
-  }
-
+  } */
+  
   .gambar img{
     width: 200px;
     height: 200px;
     margin-top: 60px;
     display: inline-block;
-   transition: 0.4s ease all;
-   margin-left: 10px;
+    transition: 0.4s ease all;
+    margin-left: 10px;
+    margin-right: 12px;
   }
   .gambar{
     position: absolute;
     top: 0;
     left: 0;
+
   }
   .gambar img:hover{
     transform: scale(1.2);
+    overflow: hidden;
   }
   
